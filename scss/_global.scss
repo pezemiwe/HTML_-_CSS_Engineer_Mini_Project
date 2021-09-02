@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Avenir";
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/AvenirLTStd-Book.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/AvenirLTStd-Medium.otf");
+  font-weight: bold;
+}
+

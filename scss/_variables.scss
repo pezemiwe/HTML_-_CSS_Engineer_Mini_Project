@@ -1,0 +1,30 @@
+// colors
+$white: #ffffff;
+$purple: #9c69e2;
+$pink: #F063B8;
+$lightPink: rgba(240, 99, 184, 0.15);
+$blue: #212353;
+$lightBlue: #f6fafd;
+$paragraph: #4b5d68;
+$boxShadow: hsla(202, 16%, 35%, 0.1);
+$slide: rgba(156, 105, 226, 1);
+
+
+@mixin flex-container($direction, $justify, $align: flex-start) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+  }
+  @mixin size($height, $width) {
+    height: $height;
+    width: $width;
+  }
+  
+  @mixin font($family, $weight, $size, $spacing, $lheight) {
+    font-family: $family;
+    font-weight: $weight;
+    font-size: $size;
+    letter-spacing: $spacing;
+    line-height: $lheight;
+  }
