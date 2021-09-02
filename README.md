@@ -1,8 +1,7 @@
-How to install
+# How to install
 
-run these commands on your command line
+## Run these commands on your command line
 
-npm install
-npm build
-
-open the index.html file in a browser or run it on a server
+- npm install
+- npm run build
+- open the `index.html` file in a browser or run it on a server
